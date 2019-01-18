@@ -4,7 +4,7 @@ import { MovieDisplayComponent } from './movie-display/components/movie-display.
 
 const routes: Routes = [
   { path: '', redirectTo: 'movies', pathMatch: 'full' },
-  { path: 'movies', component: MovieDisplayComponent}
+  { path: 'movies', component: MovieDisplayComponent }
 ];
 
 @NgModule({

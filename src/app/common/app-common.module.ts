@@ -3,15 +3,15 @@ import { CommonModule } from '@angular/common';
 import { MyFilterPipe } from './pipes/search-filter.pipe';
 
 @NgModule({
-    imports: [
-      CommonModule
-    ],
-    declarations: [
-        MyFilterPipe
-    ],
-    exports: [
-      CommonModule,
-      MyFilterPipe
-    ]
-  })
-  export class AppCommonModule { }
+  imports: [
+    CommonModule
+  ],
+  declarations: [
+    MyFilterPipe
+  ],
+  exports: [
+    CommonModule,
+    MyFilterPipe
+  ]
+})
+export class AppCommonModule { }
